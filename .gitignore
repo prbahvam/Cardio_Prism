@@ -1,8 +1,3 @@
-# Licensed competition data — do not publish
-*.xlsx
-*.xls
-*.csv
-
 # Python
 __pycache__/
 *.py[cod]
@@ -18,3 +13,7 @@ env/
 Thumbs.db
 .vscode/
 .idea/
+
+# NOTE: the .xlsx is intentionally NOT ignored here.
+# This repo is PRIVATE and ships the dataset so the deployed app
+# loads without an upload step. Keep it private.
