@@ -1,0 +1,14 @@
+# Pins the app to a light theme regardless of the viewer's OS / browser setting.
+# Without this, a judge on dark mode sees white text on the light background
+# forced by the custom CSS in app.py.
+
+[theme]
+base = "light"
+primaryColor = "#0072BC"              # Cipla-adjacent blue for sliders and accents
+backgroundColor = "#FBFCFD"
+secondaryBackgroundColor = "#EEF3F8"  # sidebar and table header
+textColor = "#12263A"
+font = "sans serif"
+
+[client]
+toolbarMode = "minimal"
